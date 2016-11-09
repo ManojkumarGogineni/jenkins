@@ -1,0 +1,20 @@
+Started by user [8mha:AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/test-site
+Cloning the remote Git repository
+Cloning repository git@github.com:ManojkumarGogineni/test-site.git
+ > git init /var/lib/jenkins/workspace/test-site # timeout=10
+Fetching upstream changes from git@github.com:ManojkumarGogineni/test-site.git
+ > git --version # timeout=10
+ > git fetch --tags --progress git@github.com:ManojkumarGogineni/test-site.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:ManojkumarGogineni/test-site.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:ManojkumarGogineni/test-site.git # timeout=10
+Fetching upstream changes from git@github.com:ManojkumarGogineni/test-site.git
+ > git fetch --tags --progress git@github.com:ManojkumarGogineni/test-site.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0c430faec365db070c42d95f5af2ad3b7eea092b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0c430faec365db070c42d95f5af2ad3b7eea092b
+First time build. Skipping changelog.
+Finished: SUCCESS

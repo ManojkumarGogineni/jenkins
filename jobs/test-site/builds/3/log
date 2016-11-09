@@ -1,0 +1,18 @@
+Started by user [8mha:AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/test-site
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:ManojkumarGogineni/test-site.git # timeout=10
+Fetching upstream changes from git@github.com:ManojkumarGogineni/test-site.git
+ > git --version # timeout=10
+ > git fetch --tags --progress git@github.com:ManojkumarGogineni/test-site.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 79f15285b8229b0fdaca12a25570dc2efa984311 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 79f15285b8229b0fdaca12a25570dc2efa984311
+ > git rev-list 79f15285b8229b0fdaca12a25570dc2efa984311 # timeout=10
+[test-site] $ /bin/sh -xe /tmp/hudson5658682810160516122.sh
++ echo done
+done
+Finished: SUCCESS

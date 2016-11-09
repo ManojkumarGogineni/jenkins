@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: integer
+Build-Jdk: 1.8.0_102
+Extension-Name: github-pullrequest
+Specification-Title: GitHub Integration Plugin for Jenkins
+Implementation-Title: github-pullrequest
+Implementation-Version: 0.1.0-rc11
+Group-Id: org.jenkins-ci.plugins
+Short-Name: github-pullrequest
+Long-Name: GitHub Integration Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Integration+Pl
+ ugin
+Plugin-Version: 0.1.0-rc11
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Dependencies: block-queued-job:0.2.0;resolution:=optional,githu
+ b:1.22.1,jucies:0.2.1;resolution:=optional,job-dsl:1.38;resolution:=o
+ ptional,matrix-project:1.6,workflow-step-api:1.14,email-ext:2.38.2;re
+ solution:=optional,github-api:1.72,token-macro:1.10;resolution:=optio
+ nal
+Plugin-Developers: Kanstantsin Shautsou:KostyaSha:
+
