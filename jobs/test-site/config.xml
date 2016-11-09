@@ -38,7 +38,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo done;</command>
+      <command>echo done;
+echo &quot;worked&quot;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
