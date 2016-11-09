@@ -39,7 +39,8 @@
   <builders>
     <hudson.tasks.Shell>
       <command>echo done;
-echo &quot;worked&quot;</command>
+echo &quot;worked&quot;
+echo test</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
